@@ -7,12 +7,13 @@
     width: 18.75rem; /* 300px para rem */
     background-color: #000000;
     padding: 0.75rem; /* 12px para rem */
+    border-radius: 1rem; /* Ajuste o valor conforme necessário */
 }
 
 .sidebar .logo {
     background-color: #121212;
     display: flex;
-    border-radius: 0.5rem; /* 8px para rem */
+    border-radius: 1rem; /* Ajuste o valor conforme necessário */
     padding: 1rem 0 0 1rem; /* 16px, 0, 0, 16px para rem */
 }
 
@@ -22,7 +23,7 @@
 
 .sidebar__navigation {
     background-color: #121212;
-    border-radius: 0.5rem; /* 8px para rem */
+    border-radius: 1rem; /* Ajuste o valor conforme necessário */
     cursor: pointer;
 }
 
@@ -55,7 +56,7 @@
 
 .library {
     background-color: #121212;
-    border-radius: 0.5rem; /* 8px para rem */
+    border-radius: 1rem; /* Ajuste o valor conforme necessário */
     display: flex;
     justify-content: space-between;
     min-block-size: 2.5rem; /* 40px para rem */
@@ -101,7 +102,7 @@
 .section-playlist {
     background-color: #242424;
     align-items: flex-start;
-    border-radius: 0.5rem; /* 8px para rem */
+    border-radius: 1rem; /* Ajuste o valor conforme necessário */
     gap: 1.25rem; /* 20px para rem */
     display: flex;
     justify-content: space-between;
@@ -130,10 +131,9 @@
 .section-playlist__content .subtitle {
     font-weight: 500;
     font-size: 0.8rem; /* 12.*px para rem */
-
 }
 
- .section-playlist__content .section-playlist__button {
+.section-playlist__content .section-playlist__button {
     background-color: #ffffff;
     color: #000;
     border-radius: 9999px;
@@ -148,6 +148,11 @@
     width: 113px;
     justify-content: center;
     margin-top: 12px;
+    cursor: pointer;
+}
+
+.section-playlist__content .section-playlist__button:hover {
+    background-color: red;
 }
 
 .sidebar .cookies {
@@ -176,4 +181,8 @@
     width: 170px;
     margin: 8px;
     font-weight: bold;
+}
+
+.languages .languages__button:hover {
+    background-color: #878787;
 }

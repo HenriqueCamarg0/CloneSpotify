@@ -1,0 +1,44 @@
+.playlist-container {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+  }
+  
+  .playlist {
+    margin: 24px;
+  }
+  
+  .playlist #greeting {
+    color: var(--text-base-light);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  
+  .playlist .session {
+    color: var(--text-base-light);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* SCROLL */
+  .offer__scroll-container {
+    max-height: 43vh;
+    margin: 24px;
+    overflow-y: auto;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  /* filepath: src/app/components/playlist/playlist.component.css */
+.offer__list-item {
+  display: grid;
+  gap: 16px; /* Ajuste conforme necessário */
+}

@@ -2,7 +2,7 @@
 .main-container {
   max-width: 80vw;
   height: 100vh;
-  margin-left: 320px;
+  margin-left: 300px;
   margin-right: 56px;
 }
 
@@ -35,9 +35,10 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   align-items: center;
   padding: 16px;
   margin: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #121212;
-  /* padding: 12px; */
+  border-radius: 1rem;
+  padding: 12px;
 }
 
 .header__navigation .navigation {
@@ -57,7 +58,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   justify-content: center;
   width: 32px;
   height: 32px;
-  background: var(--bg-icon);
+  background: #131313;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 50%;
   border: none;
@@ -100,30 +101,33 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 .header__login .subscribe {
   color: var(--text-sub);
+  height: 48px;
   font-size: 16px;
   font-weight: 700;
   background-color: transparent;
   margin-right: 32px;
+  border-radius: 20px;
+  border: none;
 }
 
 .header__login .login {
   width: 100px;
   height: 48px;
-  color: var(--text-base-dark);
+  color: #000;
   font-size: 16px;
   font-weight: 700;
-  border-radius: 40px;
+  border-radius: 20px;
 }
 
 /* HOVER */
 
 .header__search:hover {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 
 .header__login .subscribe:hover {
   transform: scale(1.04);
-  color: var(--text-base-light);
+  color: #fff;
 }
 
 .header__login .login:hover {
