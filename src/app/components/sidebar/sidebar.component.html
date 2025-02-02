@@ -1,0 +1,54 @@
+<div class="sidebar">
+  <nav class="sidebar__navigation">
+    <div class="logo">
+      <a href="">
+        <img src="/src/assets/logo-spotify.png" alt="Logo" />
+      </a>
+    </div>
+    <ul>
+      <li>
+        <a href="">
+          <fa-icon [icon]="['fas', 'home']"></fa-icon>
+          <span>Início</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <fa-icon [icon]="['fas', 'search']"></fa-icon>
+          <span>Buscar</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="library">
+    <div class="library__content">
+      <button class="library__button">
+        <fa-icon [icon]="['fas', 'book']"></fa-icon>
+        <span>Sua biblioteca</span>
+      </button>
+      <fa-icon [icon]="['fas', 'plus']"></fa-icon>
+    </div>
+
+    <section class="section-playlist">
+      <div class="section-playlist__content">
+        <span class="text title">Crie sua primeira playlist</span>
+        <span class="text subtitle">É fácil, vamos te ajudar.</span>
+        <button class="section-playlist__button">
+          <span>Criar playlist</span>
+        </button>
+      </div>
+    </section>
+
+    <div class="cookies">
+      <a href="">Cookies</a>
+    </div>
+
+    <div class="languages">
+      <button class="languages__button">
+        <fa-icon [icon]="['fas', 'globe']"></fa-icon>
+        <span>Português do Brasil</span>
+      </button>
+    </div>
+  </div>
+</div>
