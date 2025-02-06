@@ -8,9 +8,11 @@
     display: flex;
     justify-content: space-between;
 }
+
 .disclaimer-premium .text {
    flex-shrink: 0;
 }
+
 .disclaimer-premium .disclaimer-premium__title {
     color: #ffffff;
     text-transform: uppercase;
@@ -37,6 +39,24 @@
     flex-shrink: 0;
 }
 
+.disclaimer-premium button:hover {
+    background-color: red;
+}
+
 #artistList {
     display: none;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .disclaimer-premium {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .disclaimer-premium .text,
+    .disclaimer-premium button {
+        margin-bottom: 10px;
+    }
 }
